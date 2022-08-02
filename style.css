@@ -1,0 +1,180 @@
+/* создавать дизайн без макета и консультаций с дизайнером,
+а делать всё, как душа велит немного сложно на самом деле:)....*/
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 540px;
+    font-size: 28px;
+    font-family: oswald;
+}
+
+.Menu a{
+    color: rgb(68, 65, 65);
+    text-decoration: none;
+}
+.Menu a:hover{
+    color: #a48d7d;
+    transition: ease .3s all;
+}
+
+.logoImage{
+    width: 500px;
+}
+
+.logoImage img{
+    height: 100px;
+    width: 250px;
+}
+
+.slider img{ 
+    width: 1510px;
+    animation: infinite a1 3s;
+}
+
+/*дополнительно анимация для картинок на слайдере*/
+  
+    @keyframes a1 {
+
+        from {
+            opacity: 1;
+        }
+
+        50%{
+            opacity: .9;
+        }
+
+        to {
+            opacity: 1;
+        }
+
+}
+
+
+.mainInfo{
+    width: 1100px;
+    height: 90px;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif; /*самый простой шрифт и при этом лучше всего выглядящий тут*/
+    transform: translate(0%, -590%);
+    text-align: center;
+}
+
+.mainInfo :nth-child(1){
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.endOfMain{
+    height: 800px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(113, 113, 113);
+    text-align: center;
+}
+
+#section1{
+    height: 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info1, .info2, .info3{
+    font-size: 25px;
+    width: 400px;
+    height: 90px;
+    padding-top: 45px;
+    border: .5px solid rgb(196, 196, 196);
+    border-radius: 9px;
+    transform: translate(9%, 0%);
+}
+
+#section2{
+    font-size: 28px;
+    width: 490px;
+    height: 220px;
+    margin-top: 15px;
+    padding: 15px 25px;
+    border: 2px solid rgb(196, 196, 196);
+    border-radius: 9px;
+    transform: translate(88%, 0%);
+}
+
+ .info4 :nth-child(1){
+    padding-top: 30px;
+    font-size: 22px;
+    color: rgb(130, 130, 130);
+}
+
+.contacts{
+    padding: 40px;
+    background: #bdb2a8;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.infoContact{
+    font-size: 27px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contacts section{
+    height: 309px;
+}
+
+.contacts div{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacts a{
+  text-decoration: none;
+  color: #fff;
+    
+}
+
+.contacts a:hover{
+    font-size: 20.5px;
+    transition: ease .4s all;
+}
+
+.contacts img{
+    width: 70px;
+    height: 70px;
+    filter: grayscale(100%);
+    opacity: 50%;
+}
+
+#id1 img{
+    opacity: 80%;
+    height: 100px;
+    width: 250px;
+}
+
+.contacts img:hover{
+    filter: grayscale(100%);
+    opacity: 90%;
+    transition: ease .4s all;
+}
+
+#id1 img:hover{
+    opacity: 100%;
+    filter: grayscale(0%);
+    transition: ease .4s all;
+}
+
+
+
